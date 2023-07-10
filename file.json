@@ -1,0 +1,73 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Stay Healthy"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "i",
+        "patterns": [
+          "I have a disese",
+          "Can u provide any help",
+          "mrethods to cure it"
+        ],
+        "responses": [
+          "OK , i will provide you help",
+          "we have strong database"
+        ]
+      },
+      {
+        "tag": "about",
+        "patterns": [
+          "I am a  male",
+          "can u tell your age ",
+       
+        ],
+        "responses": [
+          "what is your age ",
+          "any past diseases"
+        ]
+      },
+      {
+        "tag": "Area",
+        "patterns": [
+          "can u tell me near medical store",
+          "price of medicine  ",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "yes lemme find it for you",
+          "let me check in my database"
+        ]
+      }
+      
+    ]
+  }
+  
